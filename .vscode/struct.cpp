@@ -19,7 +19,7 @@ int main()
     manish.year = 4;
     manish.cgpa = 8;
     cout << "NAME:   Aryan\tRahul\tManish\t" << endl;
-    cout << "CGPA: \t" << aryan.cgpa << "\t" << rahul.cgpa << "\t" << manish.cgpa << endl;
+    cout << "CGPA:   " << aryan.cgpa << "\t" << rahul.cgpa << "\t" << manish.cgpa << endl;
     cout << "ID  :   " << aryan.id << "\t" << rahul.id << "\t" << manish.id << endl;
     cout << "YEAR:   " << aryan.year << "\t" << rahul.year << "\t" << manish.year << endl;
 

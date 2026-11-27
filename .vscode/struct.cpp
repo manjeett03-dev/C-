@@ -6,9 +6,9 @@ struct students
     char course[20];
     int year;
     float cgpa;
-} aryan, rahul, manish;
 int main()
 {
+    struct students aryan, rahul, manish;
     aryan.id = 111;
     aryan.year = 2;
     aryan.cgpa = 7.5;
@@ -18,11 +18,10 @@ int main()
     manish.id = 333;
     manish.year = 4;
     manish.cgpa = 8;
-    cout << "NAME:   |Aryan|Rahul|Manish |\n";
-    cout << "ID:     | %d | %d | %d   |  "<< aryan.id << rahul.id << manish.id;
- cout<<"COURSE: |%s | %s| %s   |\n", aryan.course, rahul.course, manish.course);
- cout<<"YEAR:   | %d   | %d   |   %d   |\n", aryan.year, rahul.year, manish.year);
- cout<<"CGPA:   |%.1f  | %.1f | %.1f   |\n", aryan.cgpa, rahul.cgpa, manish.cgpa);
+    cout << "NAME:   Aryan\tRahul\tManish\t" << endl;
+    cout << "CGPA: \t" << aryan.cgpa << "\t" << rahul.cgpa << "\t" << manish.cgpa << endl;
+    cout << "ID  :   " << aryan.id << "\t" << rahul.id << "\t" << manish.id << endl;
+    cout << "YEAR:   " << aryan.year << "\t" << rahul.year << "\t" << manish.year << endl;
 
- return 0;
+    return 0;
 }

@@ -3,9 +3,9 @@ using namespace std;
 struct students
 {
     int id;
-    char course[20];
     int year;
     float cgpa;
+};
 int main()
 {
     struct students aryan, rahul, manish;
